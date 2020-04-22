@@ -86,7 +86,7 @@ struct ContentView: View {
           }
           .pickerStyle(SegmentedPickerStyle())
         }
-        
+        // OUTPUT PICKER
         Section(header: Text("Please select your output unit")) {
           Picker("Your input unit", selection: $outputUnit) {
             ForEach(0 ..< lengthUnits.count) {
